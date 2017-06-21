@@ -1,0 +1,63 @@
+.grid {
+  width: auto;
+}
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-2-12 {
+  width: 16.66%;
+}
+
+.col-10-12 {
+  width:83.33%;
+}
+
+.col-4-12 {
+  width: 33.33%;
+}
+
+.col-6-12 {
+  width: 50%;
+}
+
+.col-12-12 {
+  width: 100%;
+}
+
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+[class*='col-']{
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+
+.module {
+  padding: 20px;
+  background: #eee;
+}
+
+
+#pic1 {
+  width:50%;
+}
+
+#pic2 {
+  width: 50%;
+}
